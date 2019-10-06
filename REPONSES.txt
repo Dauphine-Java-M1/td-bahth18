@@ -1,0 +1,14 @@
+Thierno Moussa BAH
+
+groupId: permet d'identifier un groupe qui a créé le projet. Cette clef permet d'organiser et de retrouver
+	plus facilement et rapidement le projet.
+
+artifactId: indique un nom unique utilisé pour nommer les artifacts à construire.
+
+Le répertoire target contient deux dossiers: classes et maven-status.
+
+-------------------------------------------------------------------------------------------------
+La liste des fichiers:
+Dans le dossier src: *.java(tous les fichiers sources java. Donc PrimeCollection.java
+Dans le dossier test: PrimeCollectionTest.java
+Et le fichier pom.xml
