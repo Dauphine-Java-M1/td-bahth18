@@ -1,4 +1,4 @@
-package fr.dauphine.ja.bahthiernomoussa.td00;
+package fr.dauphine.ja.bahthiernomoussa.shapes;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,0 +1,25 @@
+Thierno Moussa BAH
+
+1. Cela fonction parce qu'on a un constructeur par défaut sans paramètre. Ensuite, les variables
+   x et y sont toutes initialisées à 0.
+
+2. Ici, ça ne fonctionne pas parce que les variables x et y qui sont privées ne sont visibles que 
+   dans la classe Point.
+   Pour y remédier, il faut soit:
+    -rendre ces variables publics
+    -créer des getters et des setteurs.
+
+3. Il faut toujours que les champs d'une classe soient privées pour respecter le principe d'encapsulation.
+   Ceci permettra de protèger des informations contre une modification inattendue.
+
+4. Un accesseur est une méthode qui permet d'accéder en lecture ou en écriture à la valeur d'un attribut.
+   On doit le faire dans la classe Point.
+
+5. Le problème est du fait que l'appel du constructeur par défaut ne marche plus! On doit le déclarer
+   explicitement si l'on veut encore l'utiliser.
+
+6. Rien.
+
+7. On doit créer une variable statique permettant d'incrémenter le nombre de points à chaque instanciation.
+
+8. Le compilateur sait quel constructeur appeler en fonction des ou du paramètre(s) du constructeur.
